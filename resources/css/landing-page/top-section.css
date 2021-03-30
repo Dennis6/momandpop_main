@@ -1,0 +1,247 @@
+/* Navbar */
+#navbar {
+    background: ;
+    color: ;
+    overflow: auto;
+}
+
+#navbar a {
+    color: ;
+    text-transform: uppercase;
+}
+
+#navbar .logo {
+    float: left;
+    padding-top: 20px;
+}
+
+#navbar ul {
+    list-style: none;
+}
+
+#navbar ul li {
+    float: left;
+}
+
+#navbar ul li a {
+    display: inline-block;
+    padding: 20px;
+    text-align: center;
+}
+
+#navbar ul li a:hover,
+#navbar ul li a.current {
+    /*background: #444;*/
+    color: #f7c08a;
+}
+/* add on new */
+/* add on new */
+/* add on ul */
+#navbar .n-container {
+    text-align: center;
+    display: inline-block;
+}
+#navbar .ul-container {
+    display: inline-block;
+}
+#navbar .ul-container ul li a {
+    /*border-right: 1px solid #000;/*rgba(255,255,255, .3)*/;
+}
+/* add on ul */
+#navbar .links {
+    display: inline-block;
+    float: right;
+}
+#navbar .links li a {
+    display: inline-block;
+}
+
+
+/* Showcase */
+#showcase1 {
+    background: /*-we*/ url('../../img/food38.jpg') no-repeat center center/cover;
+    height: 600px;
+}
+
+#showcase1 .showcase-content {
+    color: #fff;
+    text-align: center;
+    padding-top: 70px;
+}
+
+#showcase1 .showcase-content h1 {
+    font-size: 60px;
+    line-height: 1.2em;
+}
+
+#showcase1 .showcase-content p {
+    padding-bottom: 20px;
+    line-height: 1.7em;
+}
+
+
+/*Brooklyn*/
+#brooklyn .container  {
+  text-align: center;
+}
+
+#brooklyn {
+  height: 200px;
+}
+#brooklyn a {
+  text-align: center;
+}
+
+
+/* Home Info */
+#home-info {
+  height: 400px;
+}
+#home-info .info-img {
+  float: left;
+  width: 50%;
+  background: url('../../img/food14.jpg') no-repeat;
+  min-height: 100%;
+}
+#home-info .info2-img {
+  float: right;
+  width: 42%;
+  background: url('../../img/food17.jpg') no-repeat;
+  min-height: 100%;
+}
+
+
+/* Features */
+.box {
+    float: left;
+    width: 33.3%;
+    padding: 50px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.box i {
+    margin-bottom: 10px;
+}
+
+.box-img {
+  float: left;
+  width: 50%;
+  background: url('/../img/food2.jpg') no-repeat;
+  min-height: 100%;
+
+}
+
+
+/*NEW add */
+#features .move-img{
+  max-width: 100%;
+  position: relative;
+  margin: auto;
+  width:auto;
+}
+
+#movie{
+  background: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../../img/food38.jpg') no-repeat center center/cover;
+}
+
+.move-img img {
+  max-width: 100%;
+  height: 400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.move-img .mySlides {
+  height: 100%;
+  width: 100%;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  /*-webkit-animation-name: fade;*/
+  -webkit-animation-duration: 1.5s;
+ /*animation-name: fade;*/
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+/* END add movie */
+

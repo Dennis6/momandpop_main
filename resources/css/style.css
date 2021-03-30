@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,600i,700');
+@import "cssrest.css";
+@import "landing-page/top-section.css";
+@import "landing-page/about.css";
+@import "landing-page/footer-section.css";
+@import "landing-page/contact.css";
+@import "landing-page/lunch.css";
+@import "landing-page/dinner.css";
+@import "landing-page/gallery.css";
+/* @import "landing-page/recipes.css"; */
+
+/* ------------------------------------------- */
+/* BASIC SETUP */
+/* ------------------------------------------- */
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Main Styling */
+html,
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.7em;
+    color: #555;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3 {
+    padding-bottom: 20px;
+}
+
+p {
+    margin: 10px 0;
+}
+
+/* Utility Classes */
+.container {
+    margin: auto;
+    max-width: 1100px;
+    overflow: auto;
+    padding: 0 20px;
+}
+
+.text-primary {
+    color: #f7c08a;
+}
+
+/*add on */
+.text-b {
+    background: #f7c08a;
+    color: #fff;
+    padding: 13px 20px;
+}
+
+.lead {
+    font-size: 20px;
+}
+
+.btn {
+    display: inline-block;
+    font-size: 18px;
+    color: #fff;
+    background: #333;
+    padding: 13px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #f7c08a;
+    color: #333;
+}
+
+.btn-light {
+    background: #f4f4f4;
+    color: #333;
+}
+
+.bg-dark {
+    background: #333;
+    color: #fff;
+}
+
+.bg-light {
+    background: #f4f4f4;
+    color: #333;
+}
+
+.bg-lvlight {
+    background: #FFFFFF;
+    color: #19100B;
+}
+
+.bg-primary {
+    color: #333;
+    background: #f7c08a;
+}
+
+.clr {
+    clear: both;
+}
+
+.l-heading {
+    font-size: 40px;
+}
+
+/* Padding */
+.py-1 {
+    padding: 10px 0;
+}
+
+.py-2 {
+    padding: 20px 0;
+}
+
+.py-3 {
+    padding: 30px 0;
+}
+
+/* Footer */
+#main-footer {
+    text-align: center;
+    background: #19100B;
+    color: #fff;
+    padding: 25px;
+    overflow: auto;
+}
+
+/* add-on */
+#main-footer a {
+    color: #fff;
+}
+
+#main-footer ul {
+    list-style: none;
+    /*float: right;*/
+    display: inline-block;
+    margin-left: 200px;
+}
+
+#main-footer ul li {
+    /*float: left;*/
+    display: inline-block;
+}
+
+#main-footer ul li a {
+    display: inline-block;
+    padding: 20px;
+    text-align: center;
+}
+
+/*UC*/
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}

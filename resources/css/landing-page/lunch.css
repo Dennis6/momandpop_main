@@ -1,0 +1,166 @@
+/* Navbar */
+#navbar {
+    background: #fff;
+    color: #000;
+    overflow: auto;
+}
+
+#navbar a {
+    color: #000;
+    text-transform: uppercase;
+}
+
+#navbar h1 {
+    float: left;
+    padding-top: 20px;
+}
+
+#navbar ul {
+    list-style: none;
+}
+
+#navbar ul li {
+    float: left;
+}
+
+#navbar ul li a {
+    display: inline-block;
+    padding: 20px;
+    text-align: center;
+}
+
+#navbar ul li a:hover,
+#navbar ul li a.current {
+    /*background: #444;*/
+    color: #f7c08a;
+}
+
+
+/* add on ul */
+#navbar .n-container {
+    text-align: center;
+    display: inline-block;
+}
+
+#navbar .ul-container {
+    display: inline-block;
+}
+
+#navbar .ul-container ul li a {}
+
+/* add on ul */
+#navbar .links {
+    display: inline-block;
+    float: right;
+}
+
+#navbar .links li a {
+    display: inline-block;
+}
+
+/* img-lunch */
+#lunch-section .menu-img {
+    text-align: center;
+    display: block;
+    width: 100%;
+}
+
+#lunch-section img {
+    width: 100%;
+}
+
+/*lunch-section*/
+#lunch-section {
+    background: #f4f4f4;
+    background: url('../../img/food8.jpg') no-repeat center center/cover;
+}
+
+#lunch-section .menu-img {
+    background: url('../../img/food1.jpg') no-repeat center center/cover;
+}
+
+#lunch-section .lunch-content {
+    color: #000;
+    text-align: center;
+    padding-top: 70px;
+}
+
+#lunch-section .lunch-content h2 {
+    font-size: 60px;
+    line-height: 1.2rem;
+    padding-bottom: 50px;
+}
+
+
+#lunch-section .container {
+    background: #fff;
+    height: 600px;
+}
+
+/*menu*/
+.page {
+    max-width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/* add on */
+.page .left-menu {
+    width: 50%;
+    display: inline-block;
+}
+
+.page .right-menu {
+    width: 50%;
+    float: right;
+    display: inline-block;
+    padding-left: 60px;
+    overflow: hidden;
+}
+
+.menu-body {
+    max-width: 680px;
+    margin: 0 auto;
+    display: block;
+    color: rgb(92, 92, 92);
+}
+
+.menu-section {
+    margin-bottom: 0px;
+}
+
+.menu-section-title {
+    font-family: georgia;
+    font-size: 50px;
+    display: block;
+    font-weight: normal;
+    margin: 20px 0;
+    text-align: Center;
+}
+
+.menu-item {
+    margin: 35px 0;
+    font-size: 18px;
+    color: #000000;
+    font-family: "Open Sans";
+
+}
+
+.menu-item-name {
+    font-family: helvetica;
+    font-weight: bold;
+}
+
+.menu-item-description {
+    font-weight: normal;
+    font-size: .9em;
+    line-height: 1.5em;
+}
+
+.menu-item-price {
+    float: right;
+    font-weight: bold;
+    font-family: arial;
+    margin-top: -30px;
+    color: #f7c08a;
+}
